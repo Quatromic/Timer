@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Madimi+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pacifico&family=Protest+Riot&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --header-font:'Oswald',sans-serif;
+    --header-weight:lighter;
+    --beauty-font:'Dancing Script',sans-serif;
+    --beauty-font2:'Lobster Two',sans-serif;
+    --text-font:'Open Sans',sans-serif;
+    --new-font:'Pacifico',sans-serif;
+}
+body{
+    background:linear-gradient(#ffa585,#ffeda0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#date{
+    font-family:var(--beauty-font2);
+    text-decoration: underline;
+}
+.timer{
+    width:500px;
+    height:150px;
+    margin:0 auto;
+    position: relative;
+    top:320px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+span{
+    font-family: var(--beauty-font2);
+}
+#time{
+    position: relative;
+    top:17.5px;
+    font-size: 20px;
+}
+#controls{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:60px;
+}
+i:hover{
+    cursor: pointer;
+}
